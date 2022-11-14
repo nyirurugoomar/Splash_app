@@ -7,8 +7,13 @@ class IntroPage1 extends StatelessWidget {
       color: Colors.white,
       child: Column(
         children: [
-          SizedBox(
+          Container(
             height: 200,
+            width: 100,
+            child: Image.asset('assets/splash.png'),
+          ),
+          SizedBox(
+            height: 30,
           ),
           Container(
             width: 391,
